@@ -5,7 +5,7 @@
     android:id="@+id/fcnLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primaryDark"
+    android:background="@color/cardview_light_background"
     android:orientation="vertical"
     tools:context=".presentation.create_notes.CreateNoteFragment">
 
@@ -20,19 +20,18 @@
         app:layout_constraintBottom_toBottomOf="@+id/tvDateTime"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:tint="@color/white" />
+        app:tint="@color/primaryDark" />
 
     <TextView
         android:id="@+id/tvDateTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_15sdp"
-        android:layout_marginBottom="@dimen/_10sdp"
         android:gravity="center"
         android:padding="5sp"
         android:text="@string/date"
         android:textAlignment="center"
-        android:textColor="@color/white"
+        android:textColor="@color/primaryDark"
         android:textSize="13sp"
         app:layout_constraintEnd_toStartOf="@+id/imgDone"
         app:layout_constraintStart_toEndOf="@+id/imgBack"
@@ -49,7 +48,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/tvDateTime"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:tint="@color/white" />
+        app:tint="@color/primaryDark" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -79,8 +78,8 @@
             android:maxLines="1"
             android:paddingStart="5sp"
             android:paddingLeft="5sp"
-            android:textColor="@color/white"
-            android:textColorHint="@color/white"
+            android:textColor="@color/primaryDark"
+            android:textColorHint="@color/primaryDark"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -230,8 +229,8 @@
         android:fontFamily="@font/exo2variablefont"
         android:hint="@string/enter_notes_here"
         android:paddingLeft="13sp"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
+        android:textColor="@color/primaryDark"
+        android:textColorHint="@color/primaryDark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -252,7 +251,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:src="@drawable/ic_more"
-            app:tint="@color/white" />
+            app:tint="@color/ic_launcher_background" />
 
     </FrameLayout>
 

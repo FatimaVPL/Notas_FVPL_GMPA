@@ -9,7 +9,8 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/white">
 
 
         <LinearLayout
@@ -39,7 +40,7 @@
                     android:gravity="center_horizontal"
                     android:text="@string/notes"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/primaryDark"
                     android:textSize="30sp"
                     android:textStyle="bold" />
 
@@ -52,7 +53,7 @@
                     android:gravity="center_horizontal"
                     android:text="@string/tasks"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/primaryDark"
                     android:textSize="30sp"
                     android:textStyle="bold" />
 
@@ -65,7 +66,7 @@
                 android:layout_marginLeft="@dimen/_15sdp"
                 android:layout_marginRight="@dimen/_15sdp"
                 android:layout_marginBottom="@dimen/_15sdp"
-                android:background="@drawable/searchview_background"
+                android:background="@color/ic_launcher_background"
                 android:focusable="false"
                 android:theme="@style/SearchTheme"
                 app:closeIcon="@drawable/close_note"
@@ -79,6 +80,7 @@
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/white"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
