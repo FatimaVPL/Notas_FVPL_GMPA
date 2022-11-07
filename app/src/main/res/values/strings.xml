@@ -19,7 +19,7 @@
     <string name="url_require">Url is Required</string>
     <string name="url_validation">Url is not Valid</string>
     <string name="title_require">Title is Required</string>
-    <string name="empty_note_description_warning">Notes Description Must Not Be Empty</string>
+    <string name="empty_note_description_warning">Las notas/tareas necesita una descripción</string>
 
     <string name="action">action</string>
     <string name="bottom_sheet_action">bottom_sheet_action</string>
@@ -36,6 +36,6 @@
     <string name="indigo">Indigo</string>
     <string name="image">Image</string>
     <string name="webUrl">WebUrl</string>
-    <string name="deleteNote">DeleteNote</string>
+    <string name="deleteNote">Borrar nota</string>
 
 </resources>

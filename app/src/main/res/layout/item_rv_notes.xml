@@ -17,6 +17,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/roundcorner"
             android:orientation="vertical">
 
             <com.makeramen.roundedimageview.RoundedImageView
@@ -35,16 +36,15 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/manropebold"
                 android:maxLength="40"
-                android:paddingTop="@dimen/_10sdp"
-                android:text="@string/my_notes"
-                android:textColor="@color/white"
-                android:textSize="15sp"
-                android:textStyle="bold"
-                android:paddingLeft="@dimen/_10sdp"
-                android:paddingRight="@dimen/_10sdp"
                 android:paddingStart="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_10sdp"
+                android:paddingTop="@dimen/_10sdp"
                 android:paddingEnd="@dimen/_10sdp"
-                />
+                android:paddingRight="@dimen/_10sdp"
+                android:text="@string/my_notes"
+                android:textColor="@color/primaryDark"
+                android:textSize="15sp"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/tvWebLink"
@@ -53,10 +53,10 @@
                 android:autoLink="web"
                 android:ellipsize="end"
                 android:maxLines="1"
-                android:paddingLeft="@dimen/_10sdp"
-                android:paddingRight="@dimen/_10sdp"
                 android:paddingStart="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_10sdp"
                 android:paddingEnd="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
                 android:textColor="@color/white"
                 android:textSize="13sp"
                 android:visibility="gone" />
@@ -67,14 +67,14 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/manropebold"
                 android:maxLength="80"
-                android:paddingLeft="@dimen/_10sdp"
-                android:paddingRight="@dimen/_10sdp"
                 android:paddingStart="@dimen/_10sdp"
-                android:paddingEnd="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_10sdp"
                 android:paddingTop="@dimen/_5sdp"
+                android:paddingEnd="@dimen/_10sdp"
+                android:paddingRight="@dimen/_10sdp"
                 android:paddingBottom="@dimen/_5sdp"
                 android:text="@string/my_notes"
-                android:textColor="@color/white"
+                android:textColor="@color/primaryDark"
                 android:textSize="13sp" />
 
             <TextView
@@ -88,7 +88,7 @@
                 android:paddingRight="5sp"
                 android:paddingBottom="5sp"
                 android:text="@string/my_notes"
-                android:textColor="@color/white"
+                android:textColor="@color/primaryDark"
                 android:textSize="@dimen/_9sdp" />
 
 
